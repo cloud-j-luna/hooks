@@ -1,0 +1,6 @@
+- id: ktlint
+  name: ktlint
+  description: Runs ktlint on files to commit
+  entry: ./hooks/ktlint.sh
+  files: \.kt$
+  language: script
